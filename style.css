@@ -17,47 +17,23 @@ header {
   opacity: 0.9;
 }
 
-/* ===== MENU ===== */
 .menu {
   background: #1e3799;
   padding: 10px;
   text-align: center;
-  position: relative;
 }
 
-/* ☰ Button */
-.menu-btn {
-  background: #1e3799;
+.menu a {
   color: white;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-/* Dropdown menu */
-.dropdown {
-  display: none;
-  background: #1e3799;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 50px;
-}
-
-.dropdown a {
-  display: block;
-  color: white;
-  padding: 12px;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
-  border-top: 1px solid rgba(255,255,255,0.2);
 }
 
-.dropdown a:hover {
-  background: #0a3d62;
+.menu a:hover {
+  text-decoration: underline;
 }
 
-/* ===== CONTENT ===== */
 section {
   background: white;
   margin: 15px;
@@ -70,15 +46,10 @@ section h2 {
   color: #1e3799;
 }
 
-section h3 {
-  color: #0a3d62;
-}
-
-ul, ol {
+ul {
   margin-left: 20px;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background: #0a3d62;
   color: white;
