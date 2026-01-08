@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeNet Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SafeNet Student</h1>
+  <p class="tagline">Learn • Stay Safe • Stay Smart Online</p>
+</header>
+
+<section class="intro">
+  <h2>Welcome</h2>
+  <p>
+    SafeNet Student is an educational website created to help students
+    understand online risks and learn how to stay safe on the internet.
+  </p>
+</section>
+
+<section class="topics">
+  <h2>What You Will Learn</h2>
+  <ul>
+    <li>How to create strong and secure passwords</li>
+    <li>How to identify online scams and fake offers</li>
+    <li>How to stay safe on social media</li>
+    <li>What to do if you face an online scam</li>
+  </ul>
+</section>
+
+<section class="message">
+  <h2>Important Message</h2>
+  <p>
+    There are no shortcuts online.  
+    Learning skills and staying aware is the best way to stay safe.
+  </p>
+</section>
+
+<footer>
+  <p>Education purpose only • Internet Safety Awareness</p>
+ 
