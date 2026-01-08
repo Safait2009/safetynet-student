@@ -35,12 +35,17 @@
   <p class="tagline">শিখুন • নিরাপদ থাকুন • স্মার্ট থাকুন</p>
 </header>
 
+<!-- ☰ 3-dot / Hamburger Menu -->
 <nav class="menu">
-  <a href="index.html">হোম</a>
-  <a href="safety.html">অ্যাকাউন্ট সেফটি</a>
-  <a href="scam.html">স্ক্যাম সতর্কতা</a>
-  <a href="about.html">আমাদের সম্পর্কে</a>
-  <a href="help.html">সাহায্য</a>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  <div id="dropdown" class="dropdown">
+    <a href="index.html">হোম</a>
+    <a href="safety.html">অ্যাকাউন্ট সেফটি</a>
+    <a href="scam.html">স্ক্যাম সতর্কতা</a>
+    <a href="about.html">আমাদের সম্পর্কে</a>
+    <a href="help.html">সাহায্য</a>
+  </div>
 </nav>
 
 <main>
@@ -65,6 +70,9 @@
   <p>⚠️ শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে</p>
   <p class="credit">Created by Safait</p>
 </footer>
+
+<!-- JavaScript file -->
+<script src="script.js"></script>
 
 </body>
 </html>
