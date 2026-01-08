@@ -17,23 +17,47 @@ header {
   opacity: 0.9;
 }
 
+/* ===== MENU ===== */
 .menu {
   background: #1e3799;
   padding: 10px;
   text-align: center;
+  position: relative;
 }
 
-.menu a {
+/* ☰ Button */
+.menu-btn {
+  background: #1e3799;
   color: white;
-  margin: 0 10px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Dropdown menu */
+.dropdown {
+  display: none;
+  background: #1e3799;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50px;
+}
+
+.dropdown a {
+  display: block;
+  color: white;
+  padding: 12px;
   text-decoration: none;
   font-weight: bold;
+  border-top: 1px solid rgba(255,255,255,0.2);
 }
 
-.menu a:hover {
-  text-decoration: underline;
+.dropdown a:hover {
+  background: #0a3d62;
 }
 
+/* ===== CONTENT ===== */
 section {
   background: white;
   margin: 15px;
@@ -54,6 +78,7 @@ ul, ol {
   margin-left: 20px;
 }
 
+/* ===== FOOTER ===== */
 footer {
   background: #0a3d62;
   color: white;
